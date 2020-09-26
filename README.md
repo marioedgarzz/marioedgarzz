@@ -21,8 +21,8 @@ Here are some ideas to get you started:
 - Some programming language that I have ever work with:
 
 ![C](https://img.shields.io/badge/-C-A8B9CC?logo=c)
-![C++](https://img.shields.io/badge/-C++-00599C?logo=c++)
-![C#](https://img.shields.io/badge/-C#-239120?logo=c-sharp)
+![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2b%2b)
+![C#](https://img.shields.io/badge/-C%23-239120?logo=c-sharp)
 ![SQL](https://img.shields.io/badge/-SQL-CC2927?logo=microsoft-sql-server)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?logo=postgreSQL)
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=MySQL)
@@ -49,6 +49,6 @@ Some technologies that I have used:
 
 - 📫 How to reach me: 
 
-![Linked In](https://img.shields.io/badge/-PHP-blue?logo=LinkedIn) : https://www.linkedin.com/in/mario-edgar-pranata-6b41121ab/
-![Instagram](https://img.shields.io/badge/-PHP-purple?logo=Instagram) : https://www.instagram.com/marioedgarzz/
+![Linked In](https://img.shields.io/badge/-Linked In-blue?logo=LinkedIn) : https://www.linkedin.com/in/mario-edgar-pranata-6b41121ab/
+![Instagram](https://img.shields.io/badge/-Instagram-purple?logo=Instagram) : https://www.instagram.com/marioedgarzz/
 
