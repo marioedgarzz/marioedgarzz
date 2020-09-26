@@ -43,16 +43,12 @@ Some frameworks I have ever worked with:
 Some technologies that I have used:
 
 ![Unity](https://img.shields.io/badge/-Unity-000000?logo=unity)
-
-![Visual Studio](https://img.shields.io/badge/-Visual Studio-5C2D91?logo=visual-studio)
-
-![VS Code](https://img.shields.io/badge/-VS Code-007ACC?logo=visual-studio-code)
-
-![Android Studio](https://img.shields.io/badge/-Android Studio-3DDC84?logo=android-studio)
+![Visual Studio](https://img.shields.io/badge/-Visual%20Studio-5C2D91?logo=visual-studio)
+![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?logo=visual-studio-code)
+![Android Studio](https://img.shields.io/badge/-Android%20Studio-3DDC84?logo=android-studio)
 
 - 📫 How to reach me: 
 
-![Linked In](https://img.shields.io/badge/-Linked In-blue?logo=LinkedIn) : https://www.linkedin.com/in/mario-edgar-pranata-6b41121ab/
-
+![Linked In](https://img.shields.io/badge/-Linked%20In-blue?logo=LinkedIn) : https://www.linkedin.com/in/mario-edgar-pranata-6b41121ab/
 ![Instagram](https://img.shields.io/badge/-Instagram-purple?logo=Instagram) : https://www.instagram.com/marioedgarzz/
 
