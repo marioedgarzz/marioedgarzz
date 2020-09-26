@@ -16,3 +16,4 @@ Here are some ideas to get you started:
 -->
 
 ![C](https://img.shields.io/badge/-C-orange?logo=c-sharp)
+[C](https://img.shields.io/badge/-C-orange?logo=c-sharp)
