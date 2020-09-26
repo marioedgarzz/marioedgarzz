@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there 👋 My name is Mario Edgar and I'm currently enrolling as a Computer Science student in Binus University
 
 <!--
 **marioedgarzz/marioedgarzz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -15,8 +15,10 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-![C](https://img.shields.io/badge/-C-orange?logo=c-sharp)
-![C](https://img.shields.io/badge/-C-orange?logo=c-sharp)
-Now here
+Some programming language that I have ever work with:
 
-AAA
+![C](https://img.shields.io/badge/-C-blue?logo=c)
+![C#](https://img.shields.io/badge/-C-blue?logo=c-sharp)
+
+
+
