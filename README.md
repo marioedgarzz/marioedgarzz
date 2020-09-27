@@ -18,6 +18,10 @@ Here are some ideas to get you started:
 
 - 👯 I’m looking to collaborate on IT Projects
 
+- 🔭 I’m currently working as a Database Administrator in Software Laboratory Center Binus University
+
+- I also work as a Teaching Assistant in Software Laboratory Center Binus University
+
 Some programming language that I have ever work with:
 
 ![C](https://img.shields.io/badge/-C-000000?logo=c)
