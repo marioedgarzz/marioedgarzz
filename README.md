@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 
 - 👯 I’m looking to collaborate on IT Projects
 
-- Some programming language that I have ever work with:
+Some programming language that I have ever work with:
 
 ![C](https://img.shields.io/badge/-C-000000?logo=c)
 ![C++](https://img.shields.io/badge/-C++-000000?logo=c%2b%2b)
