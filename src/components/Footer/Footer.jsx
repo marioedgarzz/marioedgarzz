@@ -2,7 +2,7 @@ import './Footer.scss';
 import Container from "@mui/material/Container";
 import MenuIcon from "@mui/icons-material/Menu";
 import IconButton from "@mui/material/IconButton";
-import {useState} from "react";
+import { useState } from "react";
 import Menu from "@mui/material/Menu";
 import MenuBar from "./MenuBar";
 
@@ -20,11 +20,11 @@ export default function Footer() {
 
   return (
     <Container className='footer'>
-      <Container sx={{display: {xs: 'none', md: 'block'}}}>
+      <Container sx={{ display: { xs: 'none', md: 'block' } }}>
         <MenuBar media='md'/>
       </Container>
 
-      <Container sx={{display: {xs: 'flex', md: 'none'}}}>
+      <Container sx={{ display: { xs: 'flex', md: 'none' } }}>
         <IconButton
           className='menu-icon'
           size="large"

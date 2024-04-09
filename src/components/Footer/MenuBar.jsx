@@ -1,9 +1,9 @@
 import './Footer.scss';
-import {Stack} from "@mui/material";
+import { Stack } from "@mui/material";
 import PropTypes from "prop-types";
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 
-export default function MenuBar({media}) {
+export default function MenuBar({ media }) {
 
   const [properties, setProperties] = useState({
     sx: { display: { xs: 'none', md: 'flex' } },
@@ -13,13 +13,12 @@ export default function MenuBar({media}) {
 
   const initializeProperties = () => {
     if (media === 'xs') {
-      setProperties ({
+      setProperties({
         direction: 'column',
         className: 'navigation flex small-font'
       })
-    }
-    else {
-      setProperties ({
+    } else {
+      setProperties({
         direction: 'row',
         className: 'navigation flex'
       })

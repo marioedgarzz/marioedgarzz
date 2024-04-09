@@ -7,7 +7,7 @@ function App() {
   return (
     <Container>
       <MainPage/>
-      <Footer />
+      <Footer/>
     </Container>
   );
 }
