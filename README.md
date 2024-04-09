@@ -1,4 +1,4 @@
-### Hi there 👋 My name is Mario Edgar and I'm currently enrolling as a Computer Science student in Binus University
+### Hi there 👋 My name is Mario Edgar and I'm a graduate of Computer Science student in Binus University
 
 <!--
 **marioedgarzz/marioedgarzz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -18,9 +18,11 @@ Here are some ideas to get you started:
 
 - 👯 I’m looking to collaborate on IT Projects
 
-- 🔭 I’m currently working as a Database Administrator in Software Laboratory Center Binus University
+My Past Experiences:
 
-- I also work as a Teaching Assistant in Software Laboratory Center Binus University
+- 🔭 I worked as a Database Administrator in Software Laboratory Center Binus University
+
+- I also worked as a Teaching Assistant in Software Laboratory Center Binus University
 
 Some programming language that I have ever work with:
 
