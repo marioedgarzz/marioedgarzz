@@ -1,0 +1,11 @@
+.home-page {
+  padding: 24px;
+  min-height: 80vh;
+}
+
+.space-between-column {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: inherit;
+}

@@ -6,3 +6,29 @@
 * {
   font-family: space, sans-serif;
 }
+
+.main-class {
+  position: relative;
+  height: 1000px;
+  display: flex;
+}
+
+.main-class::before {
+  background-image: url('space-background.jpeg');
+  background-size: cover;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+}
+
+.main-container {
+  position: relative;
+}
+
+.footer-div {
+  position: relative;
+}

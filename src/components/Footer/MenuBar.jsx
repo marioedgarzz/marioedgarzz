@@ -15,12 +15,12 @@ export default function MenuBar({ media }) {
     if (media === 'xs') {
       setProperties({
         direction: 'column',
-        className: 'navigation flex small-font'
+        className: 'navigation small-navigation'
       })
     } else {
       setProperties({
         direction: 'row',
-        className: 'navigation flex'
+        className: 'navigation'
       })
     }
   }
@@ -35,16 +35,16 @@ export default function MenuBar({ media }) {
       className={properties.className}
       spacing={1}>
       <div className='menu-item'>
-        <a href="/home">Home</a>
+        Home
       </div>
       <div className='menu-item'>
-        <a href="/about">About</a>
+        About
       </div>
       <div className='menu-item'>
-        <a href="/experiences">Experiences</a>
+        Experiences
       </div>
       <div className='menu-item'>
-        <a href="/contact">Contact</a>
+        Contact
       </div>
     </Stack>
   );

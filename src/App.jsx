@@ -5,10 +5,12 @@ import Container from "@mui/material/Container";
 
 function App() {
   return (
-    <Container>
-      <MainPage/>
-      <Footer/>
-    </Container>
+    <div className='main-class'>
+      <Container className='main-container'>
+        <MainPage/>
+        <Footer/>
+      </Container>
+    </div>
   );
 }
 
