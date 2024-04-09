@@ -20,18 +20,20 @@ export default function Footer() {
 
   return (
     <Container className='footer'>
+      <Container sx={{display: {xs: 'none', md: 'block'}}}>
+        <MenuBar media='md'/>
+      </Container>
+
       <Container sx={{display: {xs: 'flex', md: 'none'}}}>
-        <span>
-          <IconButton
-            className='menu-icon'
-            size="large"
-            aria-controls="menu-appbar-2"
-            aria-haspopup="true"
-            onClick={handleOpenNavMenu}
-          >
+        <IconButton
+          className='menu-icon'
+          size="large"
+          aria-controls="menu-appbar-2"
+          aria-haspopup="true"
+          onClick={handleOpenNavMenu}
+        >
           <MenuIcon/>
         </IconButton>
-        </span>
 
         <Menu
           id="menu-appbar-2"
@@ -47,14 +49,10 @@ export default function Footer() {
           }}
           open={Boolean(anchorElNav)}
           onClose={handleCloseNavMenu}
-          sx={{
-            display: {xs: 'block', md: 'none'},
-          }}
         >
           <MenuBar media='xs'/>
         </Menu>
       </Container>
-      <MenuBar media='md'/>
     </Container>
   );
 }

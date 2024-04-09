@@ -14,14 +14,12 @@ export default function MenuBar({media}) {
   const initializeProperties = () => {
     if (media === 'xs') {
       setProperties ({
-        sx: { display: { xs: 'flex', md: 'none' } },
         direction: 'column',
         className: 'navigation flex small-font'
       })
     }
     else {
       setProperties ({
-        sx: { display: { xs: 'none', md: 'flex' } },
         direction: 'row',
         className: 'navigation flex'
       })
@@ -34,7 +32,6 @@ export default function MenuBar({media}) {
 
   return (
     <Stack
-      sx={properties.sx}
       direction={properties.direction}
       className={properties.className}
       spacing={1}>
