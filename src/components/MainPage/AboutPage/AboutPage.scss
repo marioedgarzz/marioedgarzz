@@ -1,0 +1,14 @@
+@import '../../../styles/colors';
+
+.about-page {
+  box-shadow: 0 0 10px $white;
+  padding: 24px;
+  background-image: url("../../../resources/images/comet.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 80%;
+}
+
+.Mui-active {
+  color: $teal !important;
+}

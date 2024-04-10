@@ -1,0 +1,12 @@
+@import '../../../styles/colors';
+
+.experience-page {
+  box-shadow: 0 0 10px $white;
+  padding: 24px;
+  background-color: $black;
+  opacity: 80%;
+}
+
+.Mui-active {
+  color: $teal !important;
+}

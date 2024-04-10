@@ -1,6 +1,14 @@
+@import '../../../styles/colors';
+
 .home-page {
   padding: 24px;
   min-height: 80vh;
+  box-shadow: 0 0 10px $white;
+  margin-bottom: 10px;
+  background-image: url("../../../resources/images/main.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 80%;
 }
 
 .space-between-column {
@@ -8,4 +16,9 @@
   justify-content: space-between;
   flex-direction: column;
   min-height: inherit;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
