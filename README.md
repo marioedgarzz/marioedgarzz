@@ -56,4 +56,5 @@ Some technologies that I have used:
 - 📫 How to reach me: 
 
 ![Linked In](https://img.shields.io/badge/-Linked%20In-blue?logo=LinkedIn) : https://www.linkedin.com/in/mario-edgar-pranata-6b41121ab/
-Website: https://marioedgarzz-marioedgarzzs-projects.vercel.app/
+
+Website: https://marioedgarzz.vercel.app/
