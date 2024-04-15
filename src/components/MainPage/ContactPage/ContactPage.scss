@@ -1,0 +1,36 @@
+@import '../../../styles/colors';
+
+.contact-page {
+  box-shadow: 0 0 10px $white;
+  padding: 24px;
+  background-image: url("../../../resources/images/saturn.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 80%;
+}
+
+.Mui-active {
+  color: $teal !important;
+}
+
+.contact-class {
+  padding: 20px;
+}
+
+.center-vertical {
+  display: flex;
+  align-items: center;
+}
+
+.icon-div {
+  padding-right: 20px;
+}
+
+.padding-top {
+  padding-top: 10px;
+}
+
+a {
+  color: $white;
+  text-decoration: none;
+}

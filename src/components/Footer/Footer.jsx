@@ -43,7 +43,7 @@ export default function Footer() {
   return (
     <div className='footer-div'>
       <div className='footer' style={{ width: parentWidth }}>
-        <Grid sx={{ display: { xs: 'none', md: 'block' } }}>
+        <Grid className='white-shadow' sx={{ display: { xs: 'none', md: 'block' } }}>
           <MenuBar media='md'/>
         </Grid>
 
@@ -51,7 +51,7 @@ export default function Footer() {
           <IconButton
             className='menu-icon'
             size="large"
-            aria-controls="menu-appbar-2"
+            aria-controls="menu-appbar"
             aria-haspopup="true"
             onClick={handleOpenNavMenu}
           >
@@ -59,7 +59,7 @@ export default function Footer() {
           </IconButton>
 
           <Menu
-            id="menu-appbar-2"
+            id="menu-appbar"
             anchorEl={anchorElNav}
             anchorOrigin={{
               vertical: 'top',

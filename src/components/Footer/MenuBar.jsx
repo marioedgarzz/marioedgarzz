@@ -6,9 +6,8 @@ import { useEffect, useState } from "react";
 export default function MenuBar({ media }) {
 
   const [properties, setProperties] = useState({
-    sx: { display: { xs: 'none', md: 'flex' } },
     direction: 'column',
-    className: 'navigation flex small-font'
+    className: 'navigation'
   });
 
   const initializeProperties = () => {
@@ -29,21 +28,34 @@ export default function MenuBar({ media }) {
     initializeProperties();
   }, [media]);
 
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+
   return (
     <Stack
       direction={properties.direction}
       className={properties.className}
       spacing={1}>
-      <div className='menu-item'>
+      <div className='menu-item' onClick={() => {
+        scrollToSection('home')
+      }}>
         Home
       </div>
-      <div className='menu-item'>
+      <div className='menu-item' onClick={() => {
+        scrollToSection('about')
+      }}>
         About
       </div>
-      <div className='menu-item'>
+      <div className='menu-item' onClick={() => {
+        scrollToSection('experience')
+      }}>
         Experiences
       </div>
-      <div className='menu-item'>
+      <div className='menu-item' onClick={() => {
+        scrollToSection('contact')
+      }}>
         Contact
       </div>
     </Stack>

@@ -15,7 +15,7 @@
 
 .main-class::before {
   background-image: url('space-background.jpeg');
-  background-size: cover;
+  background-size: contain;
   background-repeat: repeat-y;
   content: '';
   position: absolute;

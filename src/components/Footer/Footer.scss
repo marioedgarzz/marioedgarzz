@@ -3,7 +3,6 @@
 .footer {
   position: fixed;
   bottom: 0;
-  box-shadow: 0 0 10px $white;
 }
 
 .navigation {
@@ -27,8 +26,8 @@
 }
 
 .menu-icon {
-  color: $white !important;
-  background-color: $black !important;
+  color: $teal !important;
+  background-color: $grey !important;
   margin: 10px !important;
 }
 
@@ -37,5 +36,18 @@
   div {
     padding-bottom: 10px !important;
     border-bottom: 1px solid $white;
+  }
+}
+
+.white-shadow {
+  box-shadow: 0 0 10px $white;
+}
+
+#menu-appbar {
+  div {
+    ul {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
   }
 }
