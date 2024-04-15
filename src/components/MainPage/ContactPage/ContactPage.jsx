@@ -4,6 +4,7 @@ import { GitHub, LinkedIn } from '@mui/icons-material';
 import { useEffect, useState } from "react";
 import showOnScroll from "../../../utils/scrollListener";
 import { Slide } from "@mui/material";
+import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
 export default function ContactPage() {
 
@@ -27,7 +28,10 @@ export default function ContactPage() {
                 <GitHub fontSize='large'/>
               </div>
               <div>
-                <a href="https://github.com/marioedgarzz">https://github.com/marioedgarzz</a>
+                <a href="https://github.com/marioedgarzz">
+                  marioedgarzz
+                  <ArrowOutwardIcon fontSize='small'/>
+                </a>
               </div>
             </div>
             <div className='center-vertical padding-top'>
@@ -36,7 +40,10 @@ export default function ContactPage() {
               </div>
               <div>
                 <a
-                  href="https://www.linkedin.com/in/mario-edgar-pranata-6b41121ab/">https://www.linkedin.com/in/mario-edgar-pranata-6b41121ab/</a>
+                  href="https://www.linkedin.com/in/mario-edgar-pranata-6b41121ab/">
+                  Mario Edgar Pranata
+                  <ArrowOutwardIcon fontSize='small'/>
+                </a>
               </div>
             </div>
           </div>
